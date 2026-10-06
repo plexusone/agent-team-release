@@ -6,7 +6,7 @@
   "agents": [
     "pm",
     "qa",
-    "documentation",
+    "docs-reviewer",
     "release",
     "security",
     "release-coordinator"
@@ -68,7 +68,7 @@
       },
       {
         "name": "docs-validation",
-        "agent": "documentation",
+        "agent": "docs-reviewer",
         "depends_on": ["pm-validation"],
         "inputs": [
           {
